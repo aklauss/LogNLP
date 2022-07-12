@@ -4,7 +4,7 @@ tasks:
     init: | 
           pip3 install -r requirements.txt  # runs during prebuild
           gp sync-done installation
-  
+
   - name: Install spacy model
     init: |
         gp sync-await installation
@@ -14,3 +14,4 @@ tasks:
 vscode:
   extensions:
     - ms-azuretools.vscode-docker
+    - almenon.arepl
