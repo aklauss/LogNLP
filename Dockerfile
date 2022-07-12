@@ -1,4 +1,4 @@
-FROM gitpod/gitpod/workspace-python-3.8
+FROM gitpod/workspace-python-3.8
 
 USER gitpod
 ENV PYTHONUSERBASE=/workspace/.pip-modules
