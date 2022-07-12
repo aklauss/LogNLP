@@ -1,11 +1,9 @@
 
 tasks:
   - name: Install pre-request
-    before: echo 'before the init'
     init: | 
           pip install -r requirements.txt  # runs during prebuild
           gp sync-done installation
-    command: echo 'start script'
   
   - name: Install spacy model
     init: |
