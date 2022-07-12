@@ -2,7 +2,7 @@
 tasks:
   - name: Install pre-request
     init: | 
-          pip install -r requirements.txt  # runs during prebuild
+          pip3 install -r requirements.txt  # runs during prebuild
           gp sync-done installation
   
   - name: Install spacy model
