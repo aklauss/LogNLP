@@ -1,4 +1,5 @@
-
+image:
+    file: Dockerfile
 tasks:
   - name: Install pre-request
     init: | 
