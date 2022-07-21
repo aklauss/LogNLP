@@ -1,0 +1,556 @@
+****************************************************************************************************
+LogAnalysis: 03-17 16:13:38.811  1702  2395 D WindowManager: printFreezingDisplayLogsopening app wtoken = AppWindowToken{9f4ef63 token=Token{a64f992 ActivityRecord{de9231d u0 com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity t761}}}, allDrawn= false, startingDisplayed =  false, startingMoved =  false, isRelaunching =  false
+
+03                             => NUM       
+-                              => SYM       
+17                             => NUM       
+16:13:38.811                   => NUM       
+                               => SPACE     
+1702                           => NUM       
+                               => SPACE     
+2395                           => NUM       
+D                              => PROPN     
+WindowManager                  => PROPN     
+:                              => PUNCT     
+printFreezingDisplayLogsopening => VERB      
+app                            => NOUN      
+wtoken                         => ADJ       
+=                              => PROPN     
+AppWindowToken{9f4ef63         => PROPN     
+token                          => VERB      
+=                              => NOUN      
+Token{a64f992                  => X         
+ActivityRecord{de9231d         => ADJ       
+u0                             => PROPN     
+com.tencent.qt.qtl/.activity.info.NewsDetailXmlActivity => X         
+t761                           => ADV       
+}                              => PUNCT     
+}                              => PUNCT     
+}                              => PUNCT     
+,                              => PUNCT     
+allDrawn=                      => PROPN     
+false                          => ADJ       
+,                              => PUNCT     
+startingDisplayed              => VERB      
+=                              => SYM       
+                               => SPACE     
+false                          => ADJ       
+,                              => PUNCT     
+startingMoved                  => VERB      
+=                              => PRON      
+                               => SPACE     
+false                          => ADJ       
+,                              => PUNCT     
+isRelaunching                  => VERB      
+=                              => NOUN      
+                               => SPACE     
+false                          => ADJ       
+
+                              => SPACE     
+====================================================================================================
+03-17                          => CARDINAL  
+16:13:38.811                   => CARDINAL  
+2395                           => DATE      
+****************************************************************************************************
+LogAnalysis: [Sun Dec 04 04:47:44 2005] [notice] workerEnv.init() ok /etc/httpd/conf/workers2.properties
+
+[                              => X         
+Sun                            => PROPN     
+Dec                            => PROPN     
+04                             => NUM       
+04:47:44                       => NUM       
+2005                           => NUM       
+]                              => PUNCT     
+[                              => X         
+notice                         => VERB      
+]                              => X         
+workerEnv.init                 => PROPN     
+(                              => PUNCT     
+)                              => PUNCT     
+ok                             => INTJ      
+/etc                           => NOUN      
+/                              => SYM       
+httpd                          => PROPN     
+/                              => SYM       
+conf                           => PROPN     
+/                              => SYM       
+workers2.properties            => NOUN      
+
+                              => SPACE     
+====================================================================================================
+04 04:47:44 2005] [            => DATE      
+****************************************************************************************************
+LogAnalysis: - 1117838570 2005.06.03 R02-M1-N0-C:J12-U11 2005-06-03-15.42.50.675872 R02-M1-N0-C:J12-U11 RAS KERNEL INFO instruction cache parity error corrected
+
+-                              => SYM       
+1117838570                     => NUM       
+2005.06.03                     => NUM       
+R02                            => PROPN     
+-                              => PUNCT     
+M1                             => PROPN     
+-                              => PUNCT     
+N0                             => NOUN      
+-                              => PUNCT     
+C                              => NOUN      
+:                              => PUNCT     
+J12                            => PROPN     
+-                              => PUNCT     
+U11                            => PROPN     
+2005                           => NUM       
+-                              => SYM       
+06                             => NUM       
+-                              => PUNCT     
+03                             => NUM       
+-                              => PUNCT     
+15.42.50.675872                => NUM       
+R02                            => PROPN     
+-                              => PUNCT     
+M1                             => PROPN     
+-                              => PUNCT     
+N0                             => NOUN      
+-                              => PUNCT     
+C                              => NOUN      
+:                              => PUNCT     
+J12                            => PROPN     
+-                              => PUNCT     
+U11                            => PROPN     
+RAS                            => PROPN     
+KERNEL                         => PROPN     
+INFO                           => PROPN     
+instruction                    => NOUN      
+cache                          => NOUN      
+parity                         => NOUN      
+error                          => NOUN      
+corrected                      => VERB      
+
+                              => SPACE     
+====================================================================================================
+1117838570                     => DATE      
+R02-M1-N0-C                    => ORG       
+15.42.50.675872                => CARDINAL  
+R02-M1-N0-C                    => PRODUCT   
+****************************************************************************************************
+LogAnalysis: 081109 203615 148 INFO dfs.DataNode$PacketResponder: PacketResponder 1 for block blk_38865049064139660 terminating
+
+081109                         => NUM       
+203615                         => NUM       
+148                            => NUM       
+INFO                           => PROPN     
+dfs                            => NOUN      
+.                              => PUNCT     
+DataNode$PacketResponder       => NOUN      
+:                              => PUNCT     
+PacketResponder                => PROPN     
+1                              => NUM       
+for                            => ADP       
+block                          => NOUN      
+blk_38865049064139660          => NOUN      
+terminating                    => VERB      
+
+                              => SPACE     
+====================================================================================================
+148 INFO                       => QUANTITY  
+blk_38865049064139660          => PERSON    
+****************************************************************************************************
+LogAnalysis: 134681 node-246 unix.hw state_change.unavailable 1077804742 1 Component State Change: Component \042SCSI-WWID:01000010:6005-08b4-0001-00c6-0006-3000-003d-0000\042 is in the unavailable state (HWID=1973)
+
+134681                         => NUM       
+node-246                       => PROPN     
+unix.hw                        => PROPN     
+state_change.unavailable       => PUNCT     
+1077804742                     => NUM       
+1                              => NUM       
+Component                      => PROPN     
+State                          => PROPN     
+Change                         => PROPN     
+:                              => PUNCT     
+Component                      => NOUN      
+\042SCSI                       => PROPN     
+-                              => PUNCT     
+WWID:01000010:6005             => ADJ       
+-                              => PUNCT     
+08b4                           => NUM       
+-                              => PUNCT     
+0001                           => NUM       
+-                              => PUNCT     
+00c6                           => NUM       
+-                              => PUNCT     
+0006                           => NUM       
+-                              => PUNCT     
+3000                           => NUM       
+-                              => SYM       
+003d-0000\042                  => NUM       
+is                             => AUX       
+in                             => ADP       
+the                            => DET       
+unavailable                    => ADJ       
+state                          => NOUN      
+(                              => PUNCT     
+HWID=1973                      => NOUN      
+)                              => PUNCT     
+
+                              => SPACE     
+====================================================================================================
+134681                         => DATE      
+node-246                       => PERSON    
+1077804742 1                   => DATE      
+Component State Change         => ORG       
+****************************************************************************************************
+LogAnalysis: 2015-10-18 18:01:47,978 INFO [main] org.apache.hadoop.mapreduce.v2.app.MRAppMaster: Created MRAppMaster for application appattempt_1445144423722_0020_000001
+
+2015                           => NUM       
+-                              => SYM       
+10                             => NUM       
+-                              => SYM       
+18                             => NUM       
+18:01:47,978                   => NUM       
+INFO                           => PROPN     
+[                              => X         
+main                           => ADJ       
+]                              => PUNCT     
+org.apache.hadoop.mapreduce.v2.app => X         
+.                              => PUNCT     
+MRAppMaster                    => X         
+:                              => PUNCT     
+Created                        => VERB      
+MRAppMaster                    => X         
+for                            => ADP       
+application                    => NOUN      
+appattempt_1445144423722_0020_000001 => VERB      
+
+                              => SPACE     
+====================================================================================================
+2015-10-18                     => DATE      
+****************************************************************************************************
+LogAnalysis: 20171223-22:15:29:606|Step_LSC|30002312|onStandStepChanged 3579
+
+20171223                       => NUM       
+-                              => SYM       
+22:15:29:606|Step_LSC|30002312|onStandStepChanged => VERB      
+3579                           => NUM       
+
+                              => SPACE     
+====================================================================================================
+20171223-22:15:29:606|Step_LSC|30002312|onStandStepChanged => DATE      
+3579                           => DATE      
+****************************************************************************************************
+LogAnalysis: Jun 14 15:16:01 combo sshd(pam_unix)[19939]: authentication failure; logname= uid=0 euid=0 tty=NODEVssh ruser= rhost=218.188.2.4 
+
+Jun                            => PROPN     
+14                             => NUM       
+15:16:01                       => NUM       
+combo                          => PROPN     
+sshd(pam_unix)[19939           => PROPN     
+]                              => PUNCT     
+:                              => PUNCT     
+authentication                 => NOUN      
+failure                        => NOUN      
+;                              => PUNCT     
+logname=                       => NUM       
+uid=0                          => PROPN     
+euid=0                         => PROPN     
+tty                            => PROPN     
+=                              => PROPN     
+NODEVssh                       => PROPN     
+ruser=                         => NUM       
+rhost=218.188.2.4              => NOUN      
+
+                              => SPACE     
+====================================================================================================
+15:16:01                       => TIME      
+logname=                       => ORG       
+****************************************************************************************************
+LogAnalysis: Jul  1 09:00:55 calvisitor-10-105-160-95 kernel[0]: AppleThunderboltNHIType2::prePCIWake - power up complete - took 2 us
+
+Jul                            => PROPN     
+                               => SPACE     
+1                              => NUM       
+09:00:55                       => NUM       
+calvisitor-10                  => NOUN      
+-                              => PUNCT     
+105                            => NUM       
+-                              => PUNCT     
+160                            => NUM       
+-                              => SYM       
+95                             => NUM       
+kernel[0                       => X         
+]                              => PUNCT     
+:                              => PUNCT     
+AppleThunderboltNHIType2::prePCIWake => NOUN      
+-                              => PUNCT     
+power                          => NOUN      
+up                             => ADP       
+complete                       => NOUN      
+-                              => PUNCT     
+took                           => VERB      
+2                              => NUM       
+us                             => PRON      
+
+                              => SPACE     
+====================================================================================================
+1                              => CARDINAL  
+calvisitor-10                  => DATE      
+105-160-95                     => CARDINAL  
+2                              => CARDINAL  
+****************************************************************************************************
+LogAnalysis: Jul  1 09:00:55 calvisitor-10-105-160-95 kernel[0]: IOThunderboltSwitch<0>(0x0)::listenerCallback - Thunderbolt HPD packet for route = 0x0 port = 11 unplug = 0
+
+Jul                            => PROPN     
+                               => SPACE     
+1                              => NUM       
+09:00:55                       => NUM       
+calvisitor-10                  => NOUN      
+-                              => PUNCT     
+105                            => NUM       
+-                              => PUNCT     
+160                            => NUM       
+-                              => SYM       
+95                             => NUM       
+kernel[0                       => X         
+]                              => X         
+:                              => PUNCT     
+IOThunderboltSwitch<0>(0x0)::listenerCallback => PROPN     
+-                              => PUNCT     
+Thunderbolt                    => PROPN     
+HPD                            => PROPN     
+packet                         => NOUN      
+for                            => ADP       
+route                          => NOUN      
+=                              => SYM       
+0x0                            => NUM       
+port                           => NOUN      
+=                              => PUNCT     
+11                             => NUM       
+unplug                         => NOUN      
+=                              => NOUN      
+0                              => NUM       
+
+                              => SPACE     
+====================================================================================================
+1                              => CARDINAL  
+calvisitor-10                  => DATE      
+105-160-95                     => CARDINAL  
+11                             => CARDINAL  
+0                              => CARDINAL  
+****************************************************************************************************
+LogAnalysis: Dec 10 06:55:46 LabSZ sshd[24200]: reverse mapping checking getaddrinfo for ns.marryaldkfaczcz.com [173.234.31.186] failed - POSSIBLE BREAK-IN ATTEMPT!
+
+Dec                            => NOUN      
+10                             => NUM       
+06:55:46                       => NUM       
+LabSZ                          => PROPN     
+sshd[24200                     => PROPN     
+]                              => PUNCT     
+:                              => PUNCT     
+reverse                        => VERB      
+mapping                        => NOUN      
+checking                       => VERB      
+getaddrinfo                    => NOUN      
+for                            => ADP       
+ns.marryaldkfaczcz.com         => X         
+[                              => X         
+173.234.31.186                 => NUM       
+]                              => X         
+failed                         => VERB      
+-                              => PUNCT     
+POSSIBLE                       => ADJ       
+BREAK                          => PROPN     
+-                              => PUNCT     
+IN                             => ADP       
+ATTEMPT                        => PROPN     
+!                              => PUNCT     
+
+                              => SPACE     
+====================================================================================================
+173.234.31.186                 => CARDINAL  
+****************************************************************************************************
+LogAnalysis: nova-api.log.1.2017-05-16_13:53:08 2017-05-16 00:00:00.008 25746 INFO nova.osapi_compute.wsgi.server [req-38101a0b-2096-447d-96ea-a692162415ae 113d3a99c3da401fbd62cc2caa5b96d2 54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 "GET /v2/54fadb412c4e40cdbaed9335e4c35a9e/servers/detail HTTP/1.1" status: 200 len: 1893 time: 0.2477829
+
+nova                           => PROPN     
+-                              => PUNCT     
+api.log.1.2017                 => PROPN     
+-                              => PUNCT     
+05                             => NUM       
+-                              => PUNCT     
+16_13:53:08                    => NUM       
+2017                           => NUM       
+-                              => SYM       
+05                             => NUM       
+-                              => SYM       
+16                             => NUM       
+00:00:00.008                   => NOUN      
+25746                          => NUM       
+INFO                           => PROPN     
+nova.osapi_compute.wsgi.server => PROPN     
+[                              => X         
+req-38101a0b-2096              => NOUN      
+-                              => PUNCT     
+447d-96ea                      => PROPN     
+-                              => PUNCT     
+a692162415ae                   => NUM       
+113d3a99c3da401fbd62cc2caa5b96d2 => NUM       
+54fadb412c4e40cdbaed9335e4c35a9e => NUM       
+-                              => PUNCT     
+-                              => PUNCT     
+-                              => PUNCT     
+]                              => PUNCT     
+10.11.10.1                     => NUM       
+"                              => PUNCT     
+GET                            => VERB      
+/v2/54fadb412c4e40cdbaed9335e4c35a9e => NOUN      
+/                              => SYM       
+servers                        => NOUN      
+/                              => SYM       
+detail                         => NOUN      
+HTTP/1.1                       => NOUN      
+"                              => PUNCT     
+status                         => NOUN      
+:                              => PUNCT     
+200                            => NUM       
+len                            => NOUN      
+:                              => PUNCT     
+1893                           => NUM       
+time                           => NOUN      
+:                              => PUNCT     
+0.2477829                      => NUM       
+
+                              => SPACE     
+====================================================================================================
+nova                           => LOC       
+2017-05-16 00:00:00.008 25746  => DATE      
+54fadb412c4e40cdbaed9335e4c35a9e - - -] 10.11.10.1 => QUANTITY  
+200                            => CARDINAL  
+1893                           => DATE      
+0.2477829                      => CARDINAL  
+****************************************************************************************************
+LogAnalysis: [10.30 16:49:06] chrome.exe - proxy.cse.cuhk.edu.hk:5070 open through proxy proxy.cse.cuhk.edu.hk:5070 HTTPS
+
+[                              => X         
+10.30                          => NUM       
+16:49:06                       => NUM       
+]                              => PUNCT     
+chrome.exe                     => X         
+-                              => PUNCT     
+proxy.cse.cuhk.edu.hk:5070     => NOUN      
+open                           => ADJ       
+through                        => ADP       
+proxy                          => ADJ       
+proxy.cse.cuhk.edu.hk:5070     => NOUN      
+HTTPS                          => NOUN      
+
+                              => SPACE     
+====================================================================================================
+10.30                          => CARDINAL  
+HTTPS                          => ORG       
+****************************************************************************************************
+LogAnalysis: 17/06/09 20:10:40 INFO executor.CoarseGrainedExecutorBackend: Registered signal handlers for [TERM, HUP, INT]
+
+17/06/09                       => NUM       
+20:10:40                       => NUM       
+INFO                           => PROPN     
+executor                       => NOUN      
+.                              => PUNCT     
+CoarseGrainedExecutorBackend   => VERB      
+:                              => PUNCT     
+Registered                     => ADJ       
+signal                         => NOUN      
+handlers                       => NOUN      
+for                            => ADP       
+[                              => PUNCT     
+TERM                           => PROPN     
+,                              => PUNCT     
+HUP                            => PROPN     
+,                              => PUNCT     
+INT                            => PROPN     
+]                              => PUNCT     
+
+                              => SPACE     
+====================================================================================================
+17/06/09                       => CARDINAL  
+INFO                           => ORG       
+****************************************************************************************************
+LogAnalysis: - 1131566461 2005.11.09 dn228 Nov 9 12:01:01 dn228/dn228 crond(pam_unix)[2915]: session closed for user root
+
+-                              => SYM       
+1131566461                     => NUM       
+2005.11.09                     => NUM       
+dn228                          => PROPN     
+Nov                            => PROPN     
+9                              => NUM       
+12:01:01                       => NUM       
+dn228                          => PROPN     
+/                              => SYM       
+dn228                          => PROPN     
+crond(pam_unix)[2915           => NOUN      
+]                              => PUNCT     
+:                              => PUNCT     
+session                        => NOUN      
+closed                         => VERB      
+for                            => ADP       
+user                           => NOUN      
+root                           => NOUN      
+
+                              => SPACE     
+====================================================================================================
+dn228 Nov 9                    => ORG       
+dn228/dn228 crond(pam_unix)[2915 => ORG       
+****************************************************************************************************
+LogAnalysis: 2016-09-28 04:30:30, Info                  CBS    Loaded Servicing Stack v6.1.7601.23505 with Core: C:\Windows\winsxs\amd64_microsoft-windows-servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll
+
+2016                           => NUM       
+-                              => SYM       
+09                             => NUM       
+-                              => PUNCT     
+28                             => NUM       
+04:30:30                       => NUM       
+,                              => PUNCT     
+Info                           => PROPN     
+                               => SPACE     
+CBS                            => PROPN     
+                               => SPACE     
+Loaded                         => PROPN     
+Servicing                      => PROPN     
+Stack                          => PROPN     
+v6.1.7601.23505                => VERB      
+with                           => ADP       
+Core                           => PROPN     
+:                              => PUNCT     
+C:\Windows\winsxs\amd64_microsoft => PROPN     
+-                              => PUNCT     
+windows                        => PROPN     
+-                              => PUNCT     
+servicingstack_31bf3856ad364e35_6.1.7601.23505_none_681aa442f6fed7f0\cbscore.dll => PROPN     
+
+                              => SPACE     
+====================================================================================================
+2016-09-28                     => DATE      
+04:30:30                       => TIME      
+Info                  CBS    Loaded Servicing Stack => PERSON    
+****************************************************************************************************
+LogAnalysis: 2015-07-29 17:41:44,747 - INFO  [QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181:FastLeaderElection@774] - Notification time out: 3200
+
+2015                           => NUM       
+-                              => SYM       
+07                             => NUM       
+-                              => SYM       
+29                             => NUM       
+17:41:44,747                   => NUM       
+-                              => PUNCT     
+INFO                           => PROPN     
+                               => SPACE     
+[                              => X         
+QuorumPeer[myid=1]/0:0:0:0:0:0:0:0:2181 => PROPN     
+:                              => PUNCT     
+FastLeaderElection@774         => NOUN      
+]                              => PUNCT     
+-                              => PUNCT     
+Notification                   => NOUN      
+time                           => NOUN      
+out                            => ADP       
+:                              => PUNCT     
+3200                           => NUM       
+
+                              => SPACE     
+====================================================================================================
+2015-07-29                     => DATE      
+3200                           => CARDINAL  
